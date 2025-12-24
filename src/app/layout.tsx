@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
@@ -7,19 +7,18 @@ import Navbar from "@/modules/global/components/Navbar";
 import SmoothScrolling from "@/shared/components/SmoothScrolling";
 import Footer from "@/modules/global/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["400","700"],
+  display: "swap",
+  variable: "--font-poppins",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
-  title: "INTICAMPO | Soluciones Agropecuarias",
-  description: "Donde la tierra y su gente florecen - Fertilizantes, Asesoría y Maquinaria Agrícola",
+  title: "Inticampo",
+  description: "Productos agropecuarios - Fertilizantes, Asesoría y Maquinaria Agrícola",
 };
 
 export default async function RootLayout({
@@ -32,7 +31,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased selection:bg-green-100 selection:text-green-900`}>
+      <body className={`${poppins.variable} antialiased selection:bg-green-100 selection:text-green-900`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           <SmoothScrolling>
             <Navbar />
