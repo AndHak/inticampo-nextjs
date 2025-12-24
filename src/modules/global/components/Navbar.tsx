@@ -12,6 +12,7 @@ import {
 } from "@/shared/components/ui/dropdown-menu";
 import { setLanguage } from "@/i18n/funcs/setLanguage";
 import { useRouter } from "next/navigation";
+import { Icon } from "@iconify/react";
 
 const Navbar = () => {
   const t = useTranslations("navbar");
@@ -44,7 +45,7 @@ const Navbar = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="hidden lg:flex w-full bg-[#1a4a2e] text-white py-2 px-16 justify-between items-center text-xs border-b border-green-800/30">
+      <div className="hidden lg:flex w-full bg-verde-oscuro text-white py-2 px-16 justify-between items-center text-xs border-b border-green-800/30">
         <div className="flex gap-6 items-center">
           <div className="flex items-center gap-2">
             <MapPin size={14} className="text-green-400" />
@@ -57,7 +58,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2 border-r border-green-800/50 pr-6">
-            <Phone size={14} className="text-green-400" />
+            <Icon icon="ic:baseline-whatsapp" width="24" height="24"  style={{color: '#10b500'}} />
             <span>WhatsApp: {t("whatsapp")}</span>
           </div>
           
@@ -97,17 +98,7 @@ const Navbar = () => {
         <div className="px-4 md:px-16 flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="bg-[#1a4a2e] p-2 rounded-lg group-hover:rotate-12 transition-transform">
-              <Landmark className="text-white" size={24} />
-            </div>
-            <div className="flex flex-col">
-              <span className={`text-xl font-black tracking-tighter ${isScrolled ? "text-[#1a4a2e]" : "text-[#1a4a2e]"}`}>
-                INTI CAMPO
-              </span>
-              <span className="text-[10px] leading-tight font-bold text-green-700 tracking-[0.2em] uppercase">
-                SOLUCIONES AGRO
-              </span>
-            </div>
+            <img src="/img/logohero.png" alt="" className="h-20" />
           </Link>
 
           {/* Nav Links Desktop */}
