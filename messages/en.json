@@ -1,0 +1,143 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "location": "Cra 1 A N 4 18 via panamericana south exit, el bordo, cauca",
+    "email": "inticampoagro@gmail.com",
+    "whatsapp": "3013588333, 3005468008, 3188778621",
+    "language": "Language",
+    "lang_es": "Spanish (ES)",
+    "lang_en": "English (EN)"
+  },
+  "hero": {
+    "company_name": "INTICAMPO SAS ZOMAC",
+    "slogan": "WHERE THE LAND AND ITS PEOPLE FLOURISH",
+    "intro_phrase": "We are a company dedicated to offering quality solutions in the agricultural area, focusing on customer satisfaction and continuous improvement",
+    "btn_portfolio": "View Portfolio",
+    "btn_about": "About Us",
+    "feature1": "Guaranteed Quality",
+    "feature2": "Higher Performance",
+    "feature3": "Sustainability",
+    "quote": "Providing comprehensive agricultural solutions for joint growth."
+  },
+  "about": {
+    "section_label": "Discover",
+    "section_title": "Our Essence",
+    "mission_title": "🌱 INTICAMPO MISSION",
+    "mission_text": "To provide integral agricultural solutions through the sale and distribution of high-efficiency inputs, accompanied by personalized technical advice and a human service based on trust, honesty, and joint growth. At Inticampo, we work to boost the economic, emotional, and productive development of farmers and distributors, ensuring real investments and sustainable results for each crop.",
+    "vision_title": "🌄 INTICAMPO VISION 2040",
+    "vision_text": "By the year 2040, Inticampo will be a national and international leader in agricultural innovation and sustainability, recognized for offering effective solutions, specialized technical advice, and a close and transparent service experience. We aspire to consolidate multiple locations in different regions of the country and the world, positioning ourselves as a center of trust, comfort, and continuous support for farmers and distributors. Our purpose is to transform the relationship between the field, technology, and people, creating an ecosystem where the land and its people flourish together.",
+    "values_title": "VALUES",
+    "value1": "TRUST",
+    "value2": "QUALITY",
+    "value3": "LOYALTY"
+  },
+  "services": {
+    "label": "Our Solutions",
+    "title": "SERVICES",
+    "description": "We offer comprehensive support to optimize every stage of your agricultural production.",
+    "item1": "Personalized advice, with direct attention.",
+    "item2": "Search and solution of your agricultural problems",
+    "item3": "Soil analysis",
+    "item4": "Water acidity analysis.",
+    "learn_more": "Learn more"
+  },
+  "portfolio": {
+    "label": "Specialties",
+    "title": "Our Portfolio",
+    "view_products": "View Products",
+    "exclusive": "Exclusive",
+    "proprietary_description": "Our proprietary line designed to deliver exceptional results with optimized formulas.",
+    "contact_advisor": "Contact Advisor",
+    "categories": {
+      "cat1": "Foliar fertilizers",
+      "cat2": "Edaphic fertilizers",
+      "cat3": "Biostimulants",
+      "cat4": "Adjuvants",
+      "cat5": "Fungicides",
+      "cat6": "Insecticides",
+      "cat7": "Herbicides",
+      "cat8": "Agricultural machinery"
+    }
+  },
+  "sections": {
+    "cojuvant": {
+      "title": "ADJUVANT",
+      "tagline": "EDAPHIC AND FOLIAR FERTILIZATION",
+      "short_desc": "Importance of pH regulation of your water used for spraying.",
+      "long_desc": "Regulating the pH of your water will help and guarantee that your investment in fertilization is maximized, because your mixture will not break and thanks to controlled acidity, your crop will consume more fertilization",
+      "products": {
+        "prod1": "Aqua PH (Liter, Gallon)",
+        "prod2": "Pedal (Liter, Gallon)"
+      }
+    },
+    "edaphic": {
+      "title": "EDAPHIC FERTILIZATION",
+      "short_desc": "Know more about your soils and make your fertilizer 100% usable.",
+      "long_desc": "Correct soil management starts with knowing its acidity and applying adequate edaphic fertilization. With our fertilizers and specialized advice, we improve nutrient availability for optimal soil and crop development",
+      "products": {
+        "prod1": "INTI BALANCE – FORMULA 18-18-18 + MINOR ELEMENTS (50 KG BAG)",
+        "prod2": "INTI CULTIVO – FORMULA 14 9 26 + MINOR ELEMENTS (50 KG BAG)",
+        "prod3": "YARA LINE",
+        "prod4": "PLANT NUTRITION LINE"
+      }
+    },
+    "foliar": {
+      "title": "FOLIAR FERTILIZATION",
+      "short_desc": "Balanced applications for each stage of your crop, GROW WITH MORE YIELD AND PRODUCTION.",
+      "long_desc": "Foliar fertilization is an efficient nutritional strategy that supplies essential nutrients directly to the leaves, allowing rapid and precise absorption. This method corrects deficiencies immediately, optimizes the physiological development of the crop and improves its yield and quality.",
+      "products": {
+        "prod1": "INTI ANCESTRAL (LITER, 500CC, 250CC, 100CC)",
+        "prod2": "INTI CULTIVO ZINC (LITER, GALLON AND 20LT CONTAINER)",
+        "prod3": "INTI ORIGEN (10-30-10) (LITER, GALLON AND 20LT CONTAINER)",
+        "prod4": "INTI BALANCE (15-15-15) (LITER, GALLON, 20LT CONTAINER)",
+        "prod5": "YARA VITAS LINE",
+        "prod6": "FAZE LINE"
+      }
+    },
+    "machinery": {
+      "title": "MACHINERY",
+      "short_desc": "Machinery that adapts to your needs",
+      "long_desc": "Spraying machinery is designed to ensure precise and uniform application of agricultural inputs, optimizing the control of pests, diseases, and weeds. Its functionality allows for efficient dosing, reduction of waste, and greater crop coverage, contributing to phytosanitary protection and productive yield.",
+      "products": {
+        "prod1": "SUPRA",
+        "prod2": "TOYAMA"
+      }
+    },
+    "proprietary": {
+      "title": "INTI LINE – QUALITY",
+      "p1": "INTI BALANCE 18-18-18 + EM - 50KG BAG",
+      "p2": "INTI VITAL 14-9-26 + EM - 50KG BAG",
+      "p3": "INTI ANCESTRAL",
+      "p4": "INTI BALANCE 15-15-15",
+      "p5": "INTI ORIGEN 10-30-10",
+      "p6": "INTI VITAL – ZINC"
+    }
+  },
+  "contact": {
+    "label": "Let's Talk",
+    "title": "Ready to make your crops flourish?",
+    "location_label": "Location",
+    "email_label": "Email",
+    "whatsapp_label": "WhatsApp",
+    "form_title": "Send us a message",
+    "form_name": "Full Name",
+    "form_name_placeholder": "Your name...",
+    "form_email": "Email",
+    "form_email_placeholder": "your@email.com",
+    "form_category": "Category of interest",
+    "form_category_opt1": "Edaphic Fertilization",
+    "form_category_opt2": "Foliar Fertilization",
+    "form_category_opt3": "Adjuvants",
+    "form_category_opt4": "Machinery",
+    "form_message": "Message",
+    "form_message_placeholder": "How can we help you?",
+    "form_submit": "Send Message"
+  },
+  "footer": {
+    "rights": "ALL RIGHTS RESERVED."
+  }
+}

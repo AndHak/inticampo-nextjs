@@ -1,0 +1,143 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "contact": "Contacto",
+    "location": "Cra 1 A N 4 18 vía panamericana salida sur, el bordo, cauca",
+    "email": "inticampoagro@gmail.com",
+    "whatsapp": "3013588333, 3005468008, 3188778621",
+    "language": "Idioma",
+    "lang_es": "Español (ES)",
+    "lang_en": "English (EN)"
+  },
+  "hero": {
+    "company_name": "INTICAMPO SAS ZOMAC",
+    "slogan": "DONDE LA TIERRA Y SU GENTE FLORECEN",
+    "intro_phrase": "Somos una empresa dedicada a ofrecer soluciones de calidad en el área agrícola, enfocándonos en la satisfacción de nuestros clientes y en la mejora continua",
+    "btn_portfolio": "Ver Portafolio",
+    "btn_about": "Sobre Nosotros",
+    "feature1": "Calidad Garantizada",
+    "feature2": "Mayor Rendimiento",
+    "feature3": "Sostenibilidad",
+    "quote": "Brindando soluciones agropecuarias integrales para el crecimiento conjunto."
+  },
+  "about": {
+    "section_label": "Descubre",
+    "section_title": "Nuestra Esencia",
+    "mission_title": "🌱 MISIÓN DE INTICAMPO",
+    "mission_text": "Brindar soluciones agropecuarias integrales mediante la venta y distribución de insumos de alta efectividad, acompañados de asesoría técnica personalizada y un servicio humano basado en la confianza, la honestidad y el crecimiento conjunto. En Inticampo trabajamos para impulsar el desarrollo económico, emocional y productivo de agricultores y distribuidores, asegurando inversiones reales y resultados sostenibles para cada cultivo.",
+    "vision_title": "🌄 VISIÓN DE INTICAMPO 2040",
+    "vision_text": "Para el año 2040, Inticampo será una empresa líder nacional e internacional en innovación y sostenibilidad agropecuaria, reconocida por ofrecer soluciones efectivas, asesoría técnica especializada y una experiencia de servicio cercana y transparente. Aspiramos a consolidar múltiples sedes en diferentes regiones del país y del mundo, posicionándonos como un centro de confianza, comodidad y acompañamiento continuo para agricultores y distribuidores. Nuestro propósito es transformar la relación entre el campo, la tecnología y las personas, creando un ecosistema donde la tierra y su gente florecen juntos.",
+    "values_title": "VALORES",
+    "value1": "CONFIANZA",
+    "value2": "CALIDAD",
+    "value3": "LEALTAD"
+  },
+  "services": {
+    "label": "Nuestras Soluciones",
+    "title": "SERVICIOS",
+    "description": "Ofrecemos soporte integral para optimizar cada etapa de tu producción agrícola.",
+    "item1": "Asesoría personalizada, con atención directa.",
+    "item2": "Búsqueda y solución de tus problemas agrícolas",
+    "item3": "Análisis de suelo",
+    "item4": "Análisis de acides del agua.",
+    "learn_more": "Saber más"
+  },
+  "portfolio": {
+    "label": "Especialidades",
+    "title": "Nuestro Portafolio",
+    "view_products": "Ver Productos",
+    "exclusive": "Exclusivo",
+    "proprietary_description": "Nuestra línea propia diseñada para ofrecer resultados excepcionales con fórmulas optimizadas.",
+    "contact_advisor": "Contactar Asesor",
+    "categories": {
+      "cat1": "Fertilizantes foliares",
+      "cat2": "Fertilizantes edáficos",
+      "cat3": "Bioestimulantes",
+      "cat4": "Coadyuvantes",
+      "cat5": "Fungicidas",
+      "cat6": "Insecticidas",
+      "cat7": "Herbicidas",
+      "cat8": "Maquinaria agrícola"
+    }
+  },
+  "sections": {
+    "cojuvant": {
+      "title": "COADYUVANTE",
+      "tagline": "FERTILIZACIÓN EDAFICA Y FOLIAR",
+      "short_desc": "Importancia de la regulación del pH de tus aguas utilizadas para fumigación.",
+      "long_desc": "Regular el PH de tu agua, te ayudara y dará garantía de que tu inversión en fertilización se aproveche al máximo, porque tu mezcla no se cortara y gracias a una acidez controlada, tu cultivo consumirá más la fertilización",
+      "products": {
+        "prod1": "Aqua PH (Litro, Galón)",
+        "prod2": "Pedal (Litro, Galón)"
+      }
+    },
+    "edaphic": {
+      "title": "FERTILIZACIÓN EDAFICA",
+      "short_desc": "Conoce mas de tus suelos y que tu abono sea 100% aprovechable.",
+      "long_desc": "El correcto manejo del suelo comienza con conocer su acidez y aplicar una adecuada fertilización edáfica. Con nuestros abonos y asesoría especializada, mejoramos la disponibilidad de nutrientes para un desarrollo óptimo del suelo y los cultivos",
+      "products": {
+        "prod1": "INTI BALANCE – FORMULA 18-18-18 + ELEMENTOS MENORES (BULTO DE 50 KG)",
+        "prod2": "INTI CULTIVO – FORMULA 14 9 26 + ELEMENTOS MENORES (BULTO 50 KG)",
+        "prod3": "LINEA YARA",
+        "prod4": "LINEA NUTRICION DE PLANTAS"
+      }
+    },
+    "foliar": {
+      "title": "FERTILIZACIÓN FOLIAR",
+      "short_desc": "Aplicaciones balanceadas para cada etapa de tu cultivo, CRECER CON MAS RENDIMIENTO Y PRODUCCIÓN.",
+      "long_desc": "La fertilización foliar es una estrategia nutricional eficiente que suministra nutrientes esenciales directamente a las hojas, permitiendo una absorción rápida y precisa. Este método corrige deficiencias de forma inmediata, optimiza el desarrollo fisiológico del cultivo y mejora su rendimiento y calidad",
+      "products": {
+        "prod1": "INTI ANCESTRAL (LITRO, 500CC, 250CC, 100CC)",
+        "prod2": "INTI CULTIVO ZINC (LITRO, GALON Y POMA 20LT)",
+        "prod3": "INTI ORIGEN (10-30-10) (LITRO, GALON Y POMA 20LT)",
+        "prod4": "INTI BALANCE (15-15-15) (LITRO, GALON, POMA 20LT)",
+        "prod5": "LINEA DE YARA VITAS",
+        "prod6": "LINEA FAZE"
+      }
+    },
+    "machinery": {
+      "title": "MAQUINARIA",
+      "short_desc": "La maquinaria que se adapta a tus necesidades",
+      "long_desc": "La maquinaria para fumigación está diseñada para garantizar una aplicación precisa y uniforme de insumos agrícolas, optimizando el control de plagas, enfermedades y malezas. Su funcionalidad permite una dosificación eficiente, reducción de desperdicios y mayor cobertura del cultivo, contribuyendo a la protección fitosanitaria y al rendimiento productivo.",
+      "products": {
+        "prod1": "SUPRA",
+        "prod2": "TOYAMA"
+      }
+    },
+    "proprietary": {
+      "title": "LINEA INTI – CALIDAD",
+      "p1": "INTI BALANCE 18-18-18 + EM - BULTO 50KG",
+      "p2": "INTI VITAL 14-9-26 + EM - BULTO 50KG",
+      "p3": "INTI ANCESTRAL",
+      "p4": "INTI BALANCE 15-15-15",
+      "p5": "INTI ORIGEN 10-30-10",
+      "p6": "INTI VITAL – ZINC"
+    }
+  },
+  "contact": {
+    "label": "Hablemos",
+    "title": "¿Listo para hacer florecer tus cultivos?",
+    "location_label": "Ubicación",
+    "email_label": "Correo Electrónico",
+    "whatsapp_label": "WhatsApp",
+    "form_title": "Envíanos un mensaje",
+    "form_name": "Nombre Completo",
+    "form_name_placeholder": "Tu nombre...",
+    "form_email": "Email",
+    "form_email_placeholder": "tu@correo.com",
+    "form_category": "Categoría de interés",
+    "form_category_opt1": "Fertilización Edáfica",
+    "form_category_opt2": "Fertilización Foliar",
+    "form_category_opt3": "Coadyuvantes",
+    "form_category_opt4": "Maquinaria",
+    "form_message": "Mensaje",
+    "form_message_placeholder": "¿En qué podemos ayudarte?",
+    "form_submit": "Enviar Mensaje"
+  },
+  "footer": {
+    "rights": "TODOS LOS DERECHOS RESERVADOS."
+  }
+}
