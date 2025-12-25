@@ -31,12 +31,11 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${poppins.variable} antialiased selection:bg-green-100 selection:text-green-900`}>
+      <body className={`${poppins.variable} antialiased selection:bg-green-100 selection:text-green-900 flex flex-col`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           <SmoothScrolling>
             <Navbar />
             {children}
-            <Footer />
           </SmoothScrolling>
         </NextIntlClientProvider>
       </body>

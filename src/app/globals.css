@@ -127,7 +127,24 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html, body {
+    @apply bg-background text-foreground h-full;
+  }
   body {
-    @apply bg-background text-foreground;
+    @apply antialiased overflow-x-hidden;
   }
 }
+
+
+
+@layer utilities {
+  @keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+  .animate-shimmer {
+    animation: shimmer 2s infinite;
+  }
+}
+
+
