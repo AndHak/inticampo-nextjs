@@ -30,11 +30,11 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: t("home"), href: "#inicio" },
-    { name: t("about"), href: "#nosotros" },
-    { name: t("services"), href: "#servicios" },
-    { name: t("portfolio"), href: "#portafolio" },
-    { name: t("contact"), href: "#contacto" },
+    { name: t("home"), href: "/inicio" },
+    { name: t("about"), href: "/nosotros" },
+    { name: t("services"), href: "/servicios" },
+    { name: t("portfolio"), href: "/portafolio" },
+    { name: t("contact"), href: "/contacto" },
   ];
 
   const handleLanguageChange = async (newLocale: string) => {
@@ -98,7 +98,7 @@ const Navbar = () => {
         <div className="px-4 md:px-16 flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <img src="/img/logohero.png" alt="" className="h-20" />
+            <img src="/icons/logohero.png" alt="" className="h-20" />
           </Link>
 
           {/* Nav Links Desktop */}
