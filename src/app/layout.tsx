@@ -5,7 +5,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import Navbar from "@/modules/global/components/Navbar";
 import SmoothScrolling from "@/shared/components/SmoothScrolling";
-import Footer from "@/modules/global/components/Footer";
 
 
 const poppins = Poppins({

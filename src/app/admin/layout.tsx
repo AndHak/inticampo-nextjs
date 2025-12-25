@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import { useAuthStore } from "@/modules/admin/login/store/authStore";
 import { AdminSidebar } from "@/modules/admin/dashboard/components/AdminSidebar";
+import { Toaster } from "sonner";
+
 
 export default function AdminLayout({
   children,
@@ -43,14 +45,16 @@ export default function AdminLayout({
   }
 
   return (
-    <div className="flex flex-1">
+    <div className="flex h-screen">
       <AdminSidebar />
-      <main className="flex-1 overflow-y-auto px-4 md:px-8 py-20 lg:py-8">
+      <main className="flex-1 h-screen overflow-y-auto px-4 md:px-8 py-20 lg:py-8">
         <div className="max-w-6xl mx-auto">
+           <Toaster position="top-center" richColors />
            {children}
         </div>
       </main>
     </div>
+
   );
 }
 

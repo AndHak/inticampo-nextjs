@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ArrowRight, Sprout, TrendingUp, ShieldCheck } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   const t = useTranslations("hero");
@@ -52,10 +53,10 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-wrap gap-4 mt-4">
-            <button className="bg-[#1a4a2e] text-white px-8 py-4 rounded-xl font-bold flex items-center gap-3 hover:bg-green-800 transition-all group active:scale-95 shadow-xl shadow-green-900/10">
+            <Link href="/portafolio" className="bg-[#1a4a2e] text-white px-8 py-4 rounded-xl font-bold flex items-center gap-3 hover:bg-green-800 transition-all group active:scale-95 shadow-xl shadow-green-900/10">
               {t("btn_portfolio")}
               <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-            </button>
+            </Link>
             <button className="bg-white text-[#1a4a2e] px-8 py-4 rounded-xl font-bold border-2 border-green-100 hover:bg-green-50 transition-all active:scale-95">
               {t("btn_about")}
             </button>
@@ -86,11 +87,10 @@ const Hero = () => {
         <div className="relative hidden lg:block">
           <div className="hero-image relative rounded-3xl overflow-hidden aspect-[4/5] shadow-2xl">
             {/* Using a placeholder for now, ideally an image of a lush crop or Inticampo products */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#1a4a2e] to-green-600/20 mix-blend-multiply transition-all hover:opacity-0 duration-500" />
             <img 
-              src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&q=80&w=1200" 
+              src="/img/inticampotienda.jpeg" 
               alt="Inticampo Agriculture" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover hover:scale-105 duration-300 transition-all"
             />
           </div>
           {/* Floating card */}
